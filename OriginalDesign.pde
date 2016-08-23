@@ -1,15 +1,14 @@
-int blueBox = 1;
+int x = 10;
 void setup()
 {
   size(700,500);
-  frameRate(30); //draws loops once a second
+  noStroke();
 }
 void draw()
 {
- blueBox = blueBox + 1;
-  background(255);
-  fill(56,82,232);
-  rect(blueBox,blueBox,blueBox,blueBox);
+  x = x + 1;
+  background(0);
+  bezier(10,20,50,300,500,200,600,490);
 }
 
 
