@@ -1,4 +1,5 @@
-int x = 10;
+int a = 10;
+int b = 600;
 void setup()
 {
   size(700,500);
@@ -6,9 +7,10 @@ void setup()
 }
 void draw()
 {
-  x = x + 1;
+  a = a + 1;
+  b = b - 1;
   background(0);
-  bezier(10,20,50,300,500,200,600,490);
+  bezier(a,b-400,a,300,500,200,b,490);
 }
 
 
