@@ -7,10 +7,8 @@ void setup()
 }
 void draw()
 {
-  a = (int)(Math.random()*500);
-  b = b - 1;
   background(0);
-  bezier(10,10,200,300,500,200,490,490);
+  bezier(a,10,a,300,500,200,490,490);
 }
 
 
